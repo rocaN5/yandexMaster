@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Merge PDF Extension",
+    "version": "1.2",
+    "description": "Extension to merge open PDF tabs into one file",
+    "permissions": [
+      "tabs",
+      "downloads"
+    ],
+    "background": {
+      "scripts": ["pdf_merge_extension.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
